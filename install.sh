@@ -58,7 +58,6 @@ cd /usr/local/
 git clone https://github.com/Omoinemie/SSR-Bash-Python
 cp SSR-Bash-Python/shadowsocksr.zip /usr/local/shadowsocksr.zip
 chmod -R 777 /usr/local/SSR-Bash-Python/
-cd /usr/local/shadowsocksr
 unzip shadowsocksr.zip
 cd /usr/local/shadowsocksr
 chmod -R 777 *
