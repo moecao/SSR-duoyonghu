@@ -4,17 +4,19 @@ export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 #Check Root
 [ $(id -u) != "0" ] && { echo "Error: You must be root to run this script"; exit 1; }
 
-echo "===================="
-echo "欢迎使用 SSR-Bash-Python"
-echo "===================="
+echo "=========================================="
+echo "    欢迎使用 SSR-Bash-Python"
+echo "=========================================="
 echo ''
-echo "输入数字选择功能："
+echo "   输入数字选择功能："
 echo ""
-echo "1. 服务器控制"
-echo "2. 用户管理"
-echo "3. 全局流量管理"
-echo "4. 实验性功能"
-echo "5. 程序自检"
+echo "   1. 服务器控制"
+echo "   2. 用户管理"
+echo "   3. 全局流量管理"
+echo "   4. 实验性功能"
+echo "   5. 程序自检"
+echo ''
+echo "=========================================="
 while :; do echo
 	read -p "请选择： " choice
 	if [[ ! $choice =~ ^[1-5]$ ]]; then
