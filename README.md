@@ -47,8 +47,8 @@ ShadowsocksR多用户管理脚本（基于官方mujson版本）
 
 ## 参考资料 ##
 
-[ShadowsocksR]:                                         https://github.com/FunctionClub/shadowsocksr
+[ShadowsocksR]:                        https://github.com/FunctionClub/shadowsocksr
 
 [ShadowsocksR-manyuser mudbjson]:      https://github.com/breakwa11/shadowsocks-rss/wiki/Server-Setup(manyuser-with-mudbjson)
 
-[SSR-Bash]:                                                 https://github.com/FunctionClub/SSR-Bash
+[SSR-Bash]:                            https://github.com/FunctionClub/SSR-Bash
